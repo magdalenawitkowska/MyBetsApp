@@ -1,0 +1,442 @@
+{  
+   "singleBets":[  
+      {  
+         "id":"AVqO-zFVmHU1bQkIMbwR",
+         "betslipId":"26a7b75f-df46-45c5-a273-45ffaf57f3aa",
+         "betType":"Single",
+         "bookie":"WH",
+         "placedAt":"20170302T122511Z",
+         "totalBetStake":"0.03",
+         "potentialWinnings":"0.05",
+         "stakePerLine":"0.03",
+         "settled":true,
+         "result":"won",
+         "apiBookie":true,
+         "numberOfLines":1,
+         "currencyCode":"GBP",
+         "betDetails":[  
+            {  
+               "betId":19953865208,
+               "betName":"Sevilla",
+               "marketName":"Winner",
+               "subeventName":"Sevilla v Athletic Bilbao",
+               "subeventId":87979397,
+               "startTime":"20170302T203000Z",
+               "eventName":"Spanish Primera Division Matches",
+               "categoryName":"European Football",
+               "categoryId":27,
+               "categoryGroupId":2,
+               "odds":"4/6",
+               "oddsDecimal":"1.67",
+               "handicap":"",
+               "status":"FullTime",
+               "eachWay":false,
+               "optaId":869702,
+               "result":"won",
+               "settled":true,
+               "inRunning":false,
+               "broadcast":{  
+                  "channelLogo":"https://static.oddschecker.com/OC/i/tv/SS_5.png",
+                  "channelName":"Sky Sports 5"
+               },
+               "hasLiveInfo":true,
+               "liveInfo":{  
+                  "participants":{  
+                     "homeTeam":{  
+                        "name":"Sevilla",
+                        "teamCode":"",
+                        "score":1
+                     },
+                     "awayTeam":{  
+                        "name":"Athletic Club",
+                        "teamCode":"",
+                        "score":0
+                     }
+                  },
+                  "liveSummary":{  
+                     "currentTime":95,
+                     "score":{  
+                        "homeScore":1,
+                        "awayScore":0
+                     }
+                  }
+               }
+            }
+         ],
+         "freeBet":false,
+         "eachWay":false
+      },
+      {  
+         "id":"AVqQEmcjbTZKLME4oCxL",
+         "betslipId":"a7caa227-3dd2-47e1-b474-371ff3571489",
+         "betType":"Single",
+         "bookie":"B3",
+         "placedAt":"20170302T173009Z",
+         "totalBetStake":"0.1",
+         "potentialWinnings":"0.12",
+         "stakePerLine":"0.1",
+         "settled":false,
+         "result":null,
+         "apiBookie":true,
+         "numberOfLines":1,
+         "currencyCode":"GBP",
+         "betDetails":[  
+            {  
+               "betId":19966224308,
+               "betName":"Man Utd",
+               "marketName":"Winner",
+               "subeventName":"Man Utd v Bournemouth",
+               "subeventId":87987803,
+               "startTime":"20170304T123000Z",
+               "eventName":"English Premier League Matches",
+               "categoryName":"UK Football",
+               "categoryId":2,
+               "categoryGroupId":2,
+               "odds":"2/9",
+               "oddsDecimal":"1.22",
+               "handicap":"",
+               "eachWay":false,
+               "optaId":855434,
+               "result":null,
+               "settled":false,
+               "inRunning":false,
+               "broadcast":{  
+                  "channelLogo":"https://static.oddschecker.com/OC/i/tv/SS_1.png",
+                  "channelName":"Sky Sports 1"
+               },
+               "hasLiveInfo":true,
+               "liveInfo":{  
+                  "participants":{  
+                     "homeTeam":{  
+                        "name":"Manchester United",
+                        "teamCode":"",
+                        "score":0
+                     },
+                     "awayTeam":{  
+                        "name":"Bournemouth",
+                        "teamCode":"",
+                        "score":0
+                     }
+                  },
+                  "liveSummary":{  
+                     "currentTime":0,
+                     "score":{  
+                        "homeScore":0,
+                        "awayScore":0
+                     }
+                  }
+               }
+            }
+         ],
+         "freeBet":false,
+         "eachWay":false
+      },
+      {  
+         "id":"AVqLrMc5bTZKLME4oBvw",
+         "betslipId":"223bf8e9-0234-4f4b-bfcc-d3e689083a79",
+         "betType":"Single",
+         "bookie":"B3",
+         "placedAt":"20170301T210040Z",
+         "totalBetStake":"0.1",
+         "potentialWinnings":"0.6",
+         "stakePerLine":"0.1",
+         "settled":true,
+         "result":"lost",
+         "apiBookie":true,
+         "numberOfLines":1,
+         "currencyCode":"GBP",
+         "betDetails":[  
+            {  
+               "betId":19954094594,
+               "betName":"Real Madrid 3-1",
+               "marketName":"Correct Score",
+               "subeventName":"Real Madrid v Las Palmas",
+               "subeventId":87979463,
+               "startTime":"20170301T203000Z",
+               "eventName":"Spanish Primera Division Matches",
+               "categoryName":"European Football",
+               "categoryId":27,
+               "categoryGroupId":2,
+               "odds":"5/1",
+               "oddsDecimal":"6.0",
+               "handicap":"",
+               "status":"FullTime",
+               "eachWay":false,
+               "optaId":869699,
+               "result":"lost",
+               "settled":true,
+               "inRunning":false,
+               "broadcast":{  
+                  "channelLogo":"https://static.oddschecker.com/OC/i/tv/SS_2.png",
+                  "channelName":"Sky Sports 2"
+               },
+               "hasLiveInfo":true,
+               "liveInfo":{  
+                  "participants":{  
+                     "homeTeam":{  
+                        "name":"Real Madrid",
+                        "teamCode":"",
+                        "score":3
+                     },
+                     "awayTeam":{  
+                        "name":"Las Palmas",
+                        "teamCode":"",
+                        "score":3
+                     }
+                  },
+                  "liveSummary":{  
+                     "currentTime":93,
+                     "score":{  
+                        "homeScore":3,
+                        "awayScore":3
+                     }
+                  }
+               }
+            }
+         ],
+         "freeBet":false,
+         "eachWay":false
+      }
+   ],
+   "opta":[  
+      {  
+         "optaId":869699,
+         "name":"Real Madrid v Las Palmas",
+         "score":"3-3",
+         "timeElapsed":"93",
+         "status":"FullTime",
+         "awayTeam":{  
+            "name":"Las Palmas",
+            "shortName":"",
+            "goals":[  
+               {  
+                  "name":"Pedro Tanausu Dominguez",
+                  "time":"10"
+               },
+               {  
+                  "name":"Jonathan Viera",
+                  "time":"56"
+               },
+               {  
+                  "name":"Kevin-Prince Boateng",
+                  "time":"59"
+               }
+            ],
+            "redCards":[  
+
+            ],
+            "score":3
+         },
+         "homeTeam":{  
+            "name":"Real Madrid",
+            "shortName":"",
+            "goals":[  
+               {  
+                  "name":"Francisco Roman Alarcon Suarez",
+                  "time":"8"
+               },
+               {  
+                  "name":"Cristiano Ronaldo dos Santos Aveiro",
+                  "time":"86"
+               },
+               {  
+                  "name":"Cristiano Ronaldo dos Santos Aveiro",
+                  "time":"89"
+               }
+            ],
+            "redCards":[  
+               {  
+                  "name":"Gareth Bale",
+                  "time":"47"
+               }
+            ],
+            "score":3
+         }
+      },
+      {  
+         "optaId":908050,
+         "name":"Manchester City v Huddersfield Town",
+         "score":"5-1",
+         "timeElapsed":"92",
+         "status":"FullTime",
+         "awayTeam":{  
+            "name":"Huddersfield Town",
+            "shortName":"",
+            "goals":[  
+               {  
+                  "name":"Harry Bunn",
+                  "time":"7"
+               }
+            ],
+            "redCards":[  
+
+            ],
+            "score":1
+         },
+         "homeTeam":{  
+            "name":"Manchester City",
+            "shortName":"",
+            "goals":[  
+               {  
+                  "name":"Leroy Sane",
+                  "time":"30"
+               },
+               {  
+                  "name":"Sergio Aguero",
+                  "time":"35"
+               },
+               {  
+                  "name":"Pablo Zabaleta",
+                  "time":"38"
+               },
+               {  
+                  "name":"Sergio Aguero",
+                  "time":"73"
+               },
+               {  
+                  "name":"Kelechi Iheanacho",
+                  "time":"91"
+               }
+            ],
+            "redCards":[  
+
+            ],
+            "score":5
+         }
+      },
+      {  
+         "optaId":869706,
+         "name":"Barcelona v Sporting de Gijón",
+         "score":"6-1",
+         "timeElapsed":"93",
+         "status":"FullTime",
+         "awayTeam":{  
+            "name":"Sporting de Gijón",
+            "shortName":"",
+            "goals":[  
+               {  
+                  "name":"Carlos Castro",
+                  "time":"21"
+               }
+            ],
+            "redCards":[  
+
+            ],
+            "score":1
+         },
+         "homeTeam":{  
+            "name":"Barcelona",
+            "shortName":"",
+            "goals":[  
+               {  
+                  "name":"Lionel Messi",
+                  "time":"9"
+               },
+               {  
+                  "name":"Juan Rodriguez o/g",
+                  "time":"11"
+               },
+               {  
+                  "name":"Luis Suarez",
+                  "time":"27"
+               },
+               {  
+                  "name":"Francisco Alcacer",
+                  "time":"49"
+               },
+               {  
+                  "name":"Neymar da Silva Santos Junior",
+                  "time":"65"
+               },
+               {  
+                  "name":"Ivan Rakitic",
+                  "time":"87"
+               }
+            ],
+            "redCards":[  
+
+            ],
+            "score":6
+         }
+      },
+      {  
+         "optaId":869702,
+         "name":"Sevilla v Athletic Club",
+         "score":"1-0",
+         "timeElapsed":"95",
+         "status":"FullTime",
+         "awayTeam":{  
+            "name":"Athletic Club",
+            "shortName":"",
+            "goals":[  
+
+            ],
+            "redCards":[  
+
+            ],
+            "score":0
+         },
+         "homeTeam":{  
+            "name":"Sevilla",
+            "shortName":"",
+            "goals":[  
+               {  
+                  "name":"Vicente Iborra",
+                  "time":"14"
+               }
+            ],
+            "redCards":[  
+
+            ],
+            "score":1
+         }
+      },
+      {  
+         "optaId":869698,
+         "name":"Osasuna v Villarreal",
+         "score":"1-4",
+         "timeElapsed":"93",
+         "status":"FullTime",
+         "awayTeam":{  
+            "name":"Villarreal",
+            "shortName":"",
+            "goals":[  
+               {  
+                  "name":"Roberto Soriano",
+                  "time":"2"
+               },
+               {  
+                  "name":"Roberto Soldado",
+                  "time":"27"
+               },
+               {  
+                  "name":"Rafael Santos Borre",
+                  "time":"74"
+               },
+               {  
+                  "name":"Rafael Santos Borre",
+                  "time":"78"
+               }
+            ],
+            "redCards":[  
+
+            ],
+            "score":4
+         },
+         "homeTeam":{  
+            "name":"Osasuna",
+            "shortName":"",
+            "goals":[  
+               {  
+                  "name":"Roberto Torres",
+                  "time":"64"
+               }
+            ],
+            "redCards":[  
+
+            ],
+            "score":1
+         }
+      }
+   ]
+}

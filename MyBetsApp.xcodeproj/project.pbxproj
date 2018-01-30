@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB060F361E6D8D4300C778D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB060F351E6D8D4300C778D5 /* AppDelegate.swift */; };
+		AB060F381E6D8D4300C778D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB060F371E6D8D4300C778D5 /* ViewController.swift */; };
+		AB060F3B1E6D8D4300C778D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB060F391E6D8D4300C778D5 /* Main.storyboard */; };
+		AB060F3D1E6D8D4300C778D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB060F3C1E6D8D4300C778D5 /* Assets.xcassets */; };
+		AB060F401E6D8D4300C778D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB060F3E1E6D8D4300C778D5 /* LaunchScreen.storyboard */; };
+		AB060F4B1E6D8D4300C778D5 /* MyBetsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB060F4A1E6D8D4300C778D5 /* MyBetsAppTests.swift */; };
+		AB060F561E6D8D4300C778D5 /* MyBetsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB060F551E6D8D4300C778D5 /* MyBetsAppUITests.swift */; };
+		AB060F641E6D8DB900C778D5 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB060F631E6D8DB900C778D5 /* MainTableViewController.swift */; };
+		AB060F661E6D8E1400C778D5 /* mybets.json in Resources */ = {isa = PBXBuildFile; fileRef = AB060F651E6D8E1400C778D5 /* mybets.json */; };
+		AB060F671E6D8E1800C778D5 /* mybets.json in Resources */ = {isa = PBXBuildFile; fileRef = AB060F651E6D8E1400C778D5 /* mybets.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB060F471E6D8D4300C778D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB060F2A1E6D8D4200C778D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB060F311E6D8D4200C778D5;
+			remoteInfo = MyBetsApp;
+		};
+		AB060F521E6D8D4300C778D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB060F2A1E6D8D4200C778D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB060F311E6D8D4200C778D5;
+			remoteInfo = MyBetsApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB060F321E6D8D4300C778D5 /* MyBetsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBetsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB060F351E6D8D4300C778D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB060F371E6D8D4300C778D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB060F3A1E6D8D4300C778D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB060F3C1E6D8D4300C778D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB060F3F1E6D8D4300C778D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB060F411E6D8D4300C778D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB060F461E6D8D4300C778D5 /* MyBetsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyBetsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB060F4A1E6D8D4300C778D5 /* MyBetsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBetsAppTests.swift; sourceTree = "<group>"; };
+		AB060F4C1E6D8D4300C778D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB060F511E6D8D4300C778D5 /* MyBetsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyBetsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB060F551E6D8D4300C778D5 /* MyBetsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBetsAppUITests.swift; sourceTree = "<group>"; };
+		AB060F571E6D8D4300C778D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB060F631E6D8DB900C778D5 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		AB060F651E6D8E1400C778D5 /* mybets.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mybets.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB060F2F1E6D8D4200C778D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB060F431E6D8D4300C778D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB060F4E1E6D8D4300C778D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB060F291E6D8D4200C778D5 = {
+			isa = PBXGroup;
+			children = (
+				AB060F341E6D8D4300C778D5 /* MyBetsApp */,
+				AB060F491E6D8D4300C778D5 /* MyBetsAppTests */,
+				AB060F541E6D8D4300C778D5 /* MyBetsAppUITests */,
+				AB060F331E6D8D4300C778D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB060F331E6D8D4300C778D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB060F321E6D8D4300C778D5 /* MyBetsApp.app */,
+				AB060F461E6D8D4300C778D5 /* MyBetsAppTests.xctest */,
+				AB060F511E6D8D4300C778D5 /* MyBetsAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB060F341E6D8D4300C778D5 /* MyBetsApp */ = {
+			isa = PBXGroup;
+			children = (
+				AB060F351E6D8D4300C778D5 /* AppDelegate.swift */,
+				AB060F371E6D8D4300C778D5 /* ViewController.swift */,
+				AB060F391E6D8D4300C778D5 /* Main.storyboard */,
+				AB060F631E6D8DB900C778D5 /* MainTableViewController.swift */,
+				AB060F3C1E6D8D4300C778D5 /* Assets.xcassets */,
+				AB060F3E1E6D8D4300C778D5 /* LaunchScreen.storyboard */,
+				AB060F411E6D8D4300C778D5 /* Info.plist */,
+				AB060F651E6D8E1400C778D5 /* mybets.json */,
+			);
+			path = MyBetsApp;
+			sourceTree = "<group>";
+		};
+		AB060F491E6D8D4300C778D5 /* MyBetsAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB060F4A1E6D8D4300C778D5 /* MyBetsAppTests.swift */,
+				AB060F4C1E6D8D4300C778D5 /* Info.plist */,
+			);
+			path = MyBetsAppTests;
+			sourceTree = "<group>";
+		};
+		AB060F541E6D8D4300C778D5 /* MyBetsAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB060F551E6D8D4300C778D5 /* MyBetsAppUITests.swift */,
+				AB060F571E6D8D4300C778D5 /* Info.plist */,
+			);
+			path = MyBetsAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB060F311E6D8D4200C778D5 /* MyBetsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB060F5A1E6D8D4300C778D5 /* Build configuration list for PBXNativeTarget "MyBetsApp" */;
+			buildPhases = (
+				AB060F2E1E6D8D4200C778D5 /* Sources */,
+				AB060F2F1E6D8D4200C778D5 /* Frameworks */,
+				AB060F301E6D8D4200C778D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyBetsApp;
+			productName = MyBetsApp;
+			productReference = AB060F321E6D8D4300C778D5 /* MyBetsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB060F451E6D8D4300C778D5 /* MyBetsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB060F5D1E6D8D4300C778D5 /* Build configuration list for PBXNativeTarget "MyBetsAppTests" */;
+			buildPhases = (
+				AB060F421E6D8D4300C778D5 /* Sources */,
+				AB060F431E6D8D4300C778D5 /* Frameworks */,
+				AB060F441E6D8D4300C778D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB060F481E6D8D4300C778D5 /* PBXTargetDependency */,
+			);
+			name = MyBetsAppTests;
+			productName = MyBetsAppTests;
+			productReference = AB060F461E6D8D4300C778D5 /* MyBetsAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB060F501E6D8D4300C778D5 /* MyBetsAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB060F601E6D8D4300C778D5 /* Build configuration list for PBXNativeTarget "MyBetsAppUITests" */;
+			buildPhases = (
+				AB060F4D1E6D8D4300C778D5 /* Sources */,
+				AB060F4E1E6D8D4300C778D5 /* Frameworks */,
+				AB060F4F1E6D8D4300C778D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB060F531E6D8D4300C778D5 /* PBXTargetDependency */,
+			);
+			name = MyBetsAppUITests;
+			productName = MyBetsAppUITests;
+			productReference = AB060F511E6D8D4300C778D5 /* MyBetsAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB060F2A1E6D8D4200C778D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Jones, Oliver";
+				TargetAttributes = {
+					AB060F311E6D8D4200C778D5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					AB060F451E6D8D4300C778D5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AB060F311E6D8D4200C778D5;
+					};
+					AB060F501E6D8D4300C778D5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AB060F311E6D8D4200C778D5;
+					};
+				};
+			};
+			buildConfigurationList = AB060F2D1E6D8D4200C778D5 /* Build configuration list for PBXProject "MyBetsApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB060F291E6D8D4200C778D5;
+			productRefGroup = AB060F331E6D8D4300C778D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB060F311E6D8D4200C778D5 /* MyBetsApp */,
+				AB060F451E6D8D4300C778D5 /* MyBetsAppTests */,
+				AB060F501E6D8D4300C778D5 /* MyBetsAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB060F301E6D8D4200C778D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB060F401E6D8D4300C778D5 /* LaunchScreen.storyboard in Resources */,
+				AB060F3D1E6D8D4300C778D5 /* Assets.xcassets in Resources */,
+				AB060F3B1E6D8D4300C778D5 /* Main.storyboard in Resources */,
+				AB060F661E6D8E1400C778D5 /* mybets.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB060F441E6D8D4300C778D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB060F671E6D8E1800C778D5 /* mybets.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB060F4F1E6D8D4300C778D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB060F2E1E6D8D4200C778D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB060F381E6D8D4300C778D5 /* ViewController.swift in Sources */,
+				AB060F361E6D8D4300C778D5 /* AppDelegate.swift in Sources */,
+				AB060F641E6D8DB900C778D5 /* MainTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB060F421E6D8D4300C778D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB060F4B1E6D8D4300C778D5 /* MyBetsAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB060F4D1E6D8D4300C778D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB060F561E6D8D4300C778D5 /* MyBetsAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB060F481E6D8D4300C778D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB060F311E6D8D4200C778D5 /* MyBetsApp */;
+			targetProxy = AB060F471E6D8D4300C778D5 /* PBXContainerItemProxy */;
+		};
+		AB060F531E6D8D4300C778D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB060F311E6D8D4200C778D5 /* MyBetsApp */;
+			targetProxy = AB060F521E6D8D4300C778D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB060F391E6D8D4300C778D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB060F3A1E6D8D4300C778D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB060F3E1E6D8D4300C778D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB060F3F1E6D8D4300C778D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB060F581E6D8D4300C778D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB060F591E6D8D4300C778D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB060F5B1E6D8D4300C778D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyBetsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = training.MyBetsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AB060F5C1E6D8D4300C778D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyBetsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = training.MyBetsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AB060F5E1E6D8D4300C778D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyBetsAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = training.MyBetsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyBetsApp.app/MyBetsApp";
+			};
+			name = Debug;
+		};
+		AB060F5F1E6D8D4300C778D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyBetsAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = training.MyBetsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyBetsApp.app/MyBetsApp";
+			};
+			name = Release;
+		};
+		AB060F611E6D8D4300C778D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MyBetsAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = training.MyBetsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MyBetsApp;
+			};
+			name = Debug;
+		};
+		AB060F621E6D8D4300C778D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MyBetsAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = training.MyBetsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MyBetsApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB060F2D1E6D8D4200C778D5 /* Build configuration list for PBXProject "MyBetsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB060F581E6D8D4300C778D5 /* Debug */,
+				AB060F591E6D8D4300C778D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB060F5A1E6D8D4300C778D5 /* Build configuration list for PBXNativeTarget "MyBetsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB060F5B1E6D8D4300C778D5 /* Debug */,
+				AB060F5C1E6D8D4300C778D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB060F5D1E6D8D4300C778D5 /* Build configuration list for PBXNativeTarget "MyBetsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB060F5E1E6D8D4300C778D5 /* Debug */,
+				AB060F5F1E6D8D4300C778D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB060F601E6D8D4300C778D5 /* Build configuration list for PBXNativeTarget "MyBetsAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB060F611E6D8D4300C778D5 /* Debug */,
+				AB060F621E6D8D4300C778D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB060F2A1E6D8D4200C778D5 /* Project object */;
+}
