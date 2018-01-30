@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		227AC07A2020FFDB00329B7C /* Bet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227AC0792020FFDB00329B7C /* Bet.swift */; };
+		227AC07F2021032700329B7C /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227AC07E2021032700329B7C /* DataManager.swift */; };
+		227AC08120210C6500329B7C /* NestedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227AC08020210C6500329B7C /* NestedData.swift */; };
 		AB060F361E6D8D4300C778D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB060F351E6D8D4300C778D5 /* AppDelegate.swift */; };
 		AB060F381E6D8D4300C778D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB060F371E6D8D4300C778D5 /* ViewController.swift */; };
 		AB060F3B1E6D8D4300C778D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB060F391E6D8D4300C778D5 /* Main.storyboard */; };
@@ -37,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		227AC0792020FFDB00329B7C /* Bet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bet.swift; sourceTree = "<group>"; };
+		227AC07E2021032700329B7C /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		227AC08020210C6500329B7C /* NestedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedData.swift; sourceTree = "<group>"; };
 		AB060F321E6D8D4300C778D5 /* MyBetsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBetsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB060F351E6D8D4300C778D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB060F371E6D8D4300C778D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +85,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		227AC0782020FF8100329B7C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				227AC0792020FFDB00329B7C /* Bet.swift */,
+				227AC08020210C6500329B7C /* NestedData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		227AC07B202102C300329B7C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AB060F371E6D8D4300C778D5 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		227AC07C202102CD00329B7C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AB060F391E6D8D4300C778D5 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		227AC07D2021030F00329B7C /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				227AC07E2021032700329B7C /* DataManager.swift */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
 		AB060F291E6D8D4200C778D5 = {
 			isa = PBXGroup;
 			children = (
@@ -102,9 +141,11 @@
 		AB060F341E6D8D4300C778D5 /* MyBetsApp */ = {
 			isa = PBXGroup;
 			children = (
+				227AC07D2021030F00329B7C /* DataManager */,
+				227AC07C202102CD00329B7C /* Views */,
+				227AC07B202102C300329B7C /* ViewControllers */,
+				227AC0782020FF8100329B7C /* Models */,
 				AB060F351E6D8D4300C778D5 /* AppDelegate.swift */,
-				AB060F371E6D8D4300C778D5 /* ViewController.swift */,
-				AB060F391E6D8D4300C778D5 /* Main.storyboard */,
 				AB060F631E6D8DB900C778D5 /* MainTableViewController.swift */,
 				AB060F3C1E6D8D4300C778D5 /* Assets.xcassets */,
 				AB060F3E1E6D8D4300C778D5 /* LaunchScreen.storyboard */,
@@ -269,8 +310,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB060F381E6D8D4300C778D5 /* ViewController.swift in Sources */,
+				227AC07F2021032700329B7C /* DataManager.swift in Sources */,
 				AB060F361E6D8D4300C778D5 /* AppDelegate.swift in Sources */,
 				AB060F641E6D8DB900C778D5 /* MainTableViewController.swift in Sources */,
+				227AC08120210C6500329B7C /* NestedData.swift in Sources */,
+				227AC07A2020FFDB00329B7C /* Bet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
