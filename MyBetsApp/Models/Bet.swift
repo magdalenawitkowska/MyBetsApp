@@ -15,8 +15,8 @@ struct Bet: Codable {
     var betDetails: [BetDetails]?
     
     var singleDetails: BetDetails? {
-        if let details = betDetails, details.count > 0 {
-            return details[0]
+        if let firstDetails = betDetails?.first {
+            return firstDetails
         }
         return nil
     }

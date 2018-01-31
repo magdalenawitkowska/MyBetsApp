@@ -22,7 +22,6 @@ class BetCell: UITableViewCell {
     
 
     func configureCell(bet: Bet) {
-        
         if let details = bet.singleDetails {
             subeventLabel.text = details.subeventName ?? ""
             teamLabel.text = details.betName ?? ""

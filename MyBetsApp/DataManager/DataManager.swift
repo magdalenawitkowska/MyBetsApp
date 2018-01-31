@@ -32,13 +32,16 @@ class DataManager {
     }
     
     func matchOptaToBets(nestedData: inout NestedData) {
+        
+        var optaDictionary = [Int: String]()
+        for element in nestedData.opta where element.optaId != nil {
+            optaDictionary[element.optaId!] = element.timeElapsed
+        }
+        
         for (index, bet) in nestedData.singleBets.enumerated() {
-            for opta in nestedData.opta {
-                if let details = bet.singleDetails, details.optaId == opta.optaId {
-                    nestedData.singleBets[index].timeElapsed = opta.timeElapsed
-                }
+            if let details = bet.singleDetails, let optaId = details.optaId, let timeElapsed = optaDictionary[optaId] {
+                nestedData.singleBets[index].timeElapsed = timeElapsed
             }
         }
     }
-    
 }
