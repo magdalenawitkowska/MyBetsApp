@@ -20,14 +20,25 @@ class DataManager {
         if let path = Bundle.main.path(forResource: jsonName, ofType: "json") {
             do {
                 let data = try Data(contentsOf: URL(fileURLWithPath: path))
-                let decodedBets = try JSONDecoder().decode(NestedData.self, from: data)
-                return (decodedBets.singleBets, nil)
+                var nestedData = try JSONDecoder().decode(NestedData.self, from: data)
+                matchOptaToBets(nestedData: &nestedData)
+                return (nestedData.singleBets, nil)
             }
             catch let error {
                 return ([], errorText: error.localizedDescription)
             }
         }
         return ([], "No json file found.")
+    }
+    
+    func matchOptaToBets(nestedData: inout NestedData) {
+        for (index, bet) in nestedData.singleBets.enumerated() {
+            for opta in nestedData.opta {
+                if let details = bet.singleDetails, details.optaId == opta.optaId {
+                    nestedData.singleBets[index].timeElapsed = opta.timeElapsed
+                }
+            }
+        }
     }
     
 }

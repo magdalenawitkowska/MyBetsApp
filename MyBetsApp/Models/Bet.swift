@@ -9,11 +9,17 @@
 import Foundation
 
 struct Bet: Codable {
-    var betName: String?
-    var subEventName: String?
-    var marketName: String?
-   // var channelLogo: String?
+    var channelLogo: String?
     var totalBetStake: String?
-    var odds: String?
     var potentialWinnings: String?
+    var betDetails: [BetDetails]?
+    
+    var singleDetails: BetDetails? {
+        if let details = betDetails, details.count > 0 {
+            return details[0]
+        }
+        return nil
+    }
+    
+    var timeElapsed: String?
 }

@@ -1,5 +1,5 @@
 //
-//  NestedData.swift
+//  Opta.swift
 //  MyBetsApp
 //
 //  Created by Magdalena Witkowska on 30.01.2018.
@@ -8,7 +8,8 @@
 
 import Foundation
 
-struct NestedData: Codable {
-    var singleBets: [Bet] = []
-    var opta: [Opta] = []
+struct Opta: Codable {
+    var optaId: Int?
+    var timeElapsed: String?
 }
+
