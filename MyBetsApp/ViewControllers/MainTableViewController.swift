@@ -6,6 +6,7 @@ class MainTableViewController: UITableViewController {
     var singleBets: [Bet] = []
     var errorAlert: UIAlertController?
     
+    //MARK: Lifecycle methods
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -22,6 +23,7 @@ class MainTableViewController: UITableViewController {
         }
     }
     
+    //MARK: Data fetching
     func getData() {
         let result = DataManager.instance.getSingleBets()
         if let error = result.errorText {
@@ -34,17 +36,15 @@ class MainTableViewController: UITableViewController {
         }
     }
 
+    //MARK: TableViewDataSource
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
             return singleBets.count
     }
 
-
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "betCell", for: indexPath) as! BetCell
-        
         let singleBet = singleBets[indexPath.row]
         cell.configureCell(bet: singleBet)
-    
         return cell
     }
 }

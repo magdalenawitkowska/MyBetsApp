@@ -20,7 +20,7 @@ class BetCell: UITableViewCell {
     @IBOutlet weak var returnsLabel: UILabel!
     @IBOutlet weak var timeLabel: UILabel!
     
-
+    //MARK: Setup
     func configureCell(bet: Bet) {
         if let details = bet.singleDetails {
             subeventLabel.text = details.subeventName ?? ""
@@ -29,21 +29,25 @@ class BetCell: UITableViewCell {
             oddsLabel.text = details.odds ?? ""
             
             if let broadcast = details.broadcast, let imageString = broadcast.channelLogo, let imageUrl = URL(string: imageString) {
-                let session = URLSession.shared
-                let task = session.dataTask(with: imageUrl) { (data, response, error) in
-                    if error == nil {
-                        let downloadedImage = UIImage(data: data!)
-                        DispatchQueue.main.async {
-                            self.channelImageView.image = downloadedImage
-                        }
-                    }
-                }
-                task.resume()
+                setImage(fromURL: imageUrl)
             }
         }
         
         stakeLabel.text = bet.totalBetStake ?? ""
         returnsLabel.text = bet.potentialWinnings ?? ""
         timeLabel.text = bet.timeElapsed ?? ""
+    }
+    
+    func setImage(fromURL imageUrl: URL) {
+        let session = URLSession.shared
+        let task = session.dataTask(with: imageUrl) { (data, response, error) in
+            if error == nil {
+                let downloadedImage = UIImage(data: data!)
+                DispatchQueue.main.async {
+                    self.channelImageView.image = downloadedImage
+                }
+            }
+        }
+        task.resume()
     }
 }
