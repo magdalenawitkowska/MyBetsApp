@@ -20,15 +20,19 @@ class DataManager {
         if let path = Bundle.main.path(forResource: jsonName, ofType: "json") {
             do {
                 let data = try Data(contentsOf: URL(fileURLWithPath: path))
-                var nestedData = try JSONDecoder().decode(NestedData.self, from: data)
-                matchOptaToBets(nestedData: &nestedData)
-                return (nestedData.singleBets, nil)
+                return (try parseData(data: data), nil)
             }
             catch let error {
                 return ([], errorText: error.localizedDescription)
             }
         }
         return ([], "No json file found.")
+    }
+    
+    func parseData(data: Data) throws -> [Bet] {
+        var nestedData = try JSONDecoder().decode(NestedData.self, from: data)
+        matchOptaToBets(nestedData: &nestedData)
+        return nestedData.singleBets
     }
     
     func matchOptaToBets(nestedData: inout NestedData) {

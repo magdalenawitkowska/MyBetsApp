@@ -9,7 +9,6 @@
 import Foundation
 
 struct Bet: Codable {
-    var channelLogo: String?
     var totalBetStake: String?
     var potentialWinnings: String?
     var betDetails: [BetDetails]?
